@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener
+	class-name="exentreport.ExtentReport"/>
+</listeners>
+  <test thread-count="16" name="Test">
+    <classes>
+    <class name="org.tests.LoginTest"/>
+    <class name="org.tests.HomePageTest"/>
+    <class name="org.tests.SearchTest"/>
+    <class name="org.tests.SearchResultTest"/>
+    <class name="org.tests.CartPageTest"/>
+    <class name="org.tests.MobOptionsTest"/>
+    <class name="org.tests.ProdTest"/>
+    <class name="org.tests.FashionTopTest"/>
+    <class name="org.tests.FashionFootTest"/>
+    <class name="org.tests.FasshionBagTest"/>
+    <class name="org.tests.MouseHoverSafetyTest"/>
+     <class name="org.tests.BookSearchTest"/>
+      <class name="org.tests.BookResultTest"/>
+       <class name="org.tests.MouseHoverApplianceTest"/>
+     <class name="org.tests.ApplianceResultTest"/>
+     <class name="org.tests.ApplianceFinalTest"/>
+    
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

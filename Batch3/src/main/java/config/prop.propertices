@@ -1,0 +1,11 @@
+browser = chrome
+####browser = edge
+cpath = D:\\MaheshwarCG\\DRIVERS\\chromedriver_win321\\chromedriver.exe
+fpath = D:\\MaheshwarCG\\DRIVERS\\geckodriver-v0.29.1-win64\\geckodriver.exe
+epath = D:\\MaheshwarCG\\DRIVERS\\edgedriver11\\msedgedriver.exe
+url = https://www.flipkart.com/
+phone = 8639854648
+password = 8639854648
+tosearch = APPLE iPhone 11 (Black, 64 GB)
+invalphone=8899889988
+invalpass=8877889978
